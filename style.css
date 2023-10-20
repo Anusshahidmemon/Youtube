@@ -1,0 +1,828 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color:white ;
+    display: flex;
+  align-items: center;
+    justify-content: space-evenly;
+  position: fixed;
+  
+}
+.menu{
+    display: flex;
+height: 25px;
+    font-size: 22px;
+
+width: 25px;
+justify-content: center;
+align-items: center;
+color: rgba(0, 0, 0, 0.774);
+
+
+
+
+}
+.menu:hover{
+   background-color: rgba(128, 128, 128, 0.397);
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   font-size: 22px;
+ 
+}
+.logo{
+    font-size: 30px;
+    display: flex;
+    color: red;
+    align-items: center;
+  
+
+}
+.youtube{
+    color: black;
+    margin-left: 2px;
+    font-weight: 550;
+    letter-spacing: -1px;
+    font-size: 25px;
+
+
+}
+sup{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.808);
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 60%;
+   
+    
+  
+}
+
+ 
+input{
+    font-size: 20px;
+    width:65%;
+    height: 35px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    margin-left: 110px;
+    
+}  
+
+
+.search-icon{
+    border: 2px solid rgba(128, 128, 128, 0.432);
+ width: 7%;
+    height: 37px;
+    border-left:none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+   background-color: rgba(128, 128, 128, 0.096);
+
+}
+
+.recorder{
+    display: flex;
+    height: 40px;
+    font-size: 18px;
+
+width: 40px;
+justify-content: center;
+align-items: center;
+background-color: rgba(128, 128, 128, 0.096);
+border-radius: 50%;
+margin-left: 18Px;
+
+}
+.create{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+margin-left: 100px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+  
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    font-size: 30px;
+    color: purple;
+}
+
+
+
+.sidebar{
+ background-color: white;
+    height: 100%;
+margin-top: 43px;
+    width: 20%;
+ float: left;
+   
+}
+
+.home{
+    
+    display: flex;
+    
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.226);
+    border-radius: 10px;
+}
+.home-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.home p{
+    margin-left: 35px;
+    
+    font-size: 14px;
+    
+}
+
+.shorts{
+    
+    display: flex;
+    
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+}
+.shorts:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.shorts-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.shorts p{
+    margin-left: 40px;
+    
+    font-size: 16px;
+    
+}
+
+.subscription{
+    
+    display: flex;
+    
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.subscription:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.subscription-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.subscription p{
+    margin-left: 35px;
+    
+    font-size: 16px;
+    
+}
+hr{
+    text-align: center;
+    width: 90%;
+    color: rgba(128, 128, 128, 0.192);
+}
+
+h3{
+font-weight: 700; 
+padding-left: 15px;
+height: 40px;
+line-height: 40px;
+width: 80%;
+margin-left: 5%;
+border-radius: 10px;
+
+}
+
+h3:hover{
+    
+   
+    font-weight: 700; 
+    padding-left: 15px;
+    background-color: rgba(128, 128, 128, 0.226);
+    width: 80%;
+    margin-left: 5%;
+
+
+}
+.channel{
+    
+    display: flex;
+    margin-top: -20px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.channel:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.channel-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.channel p{
+    margin-left: 35px;
+    
+    font-size: 16px;
+    
+}
+.History{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.History:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.History-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.History p{
+    margin-left: 35px;
+    
+    font-size: 16px;
+    
+}
+.video{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.video:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.video-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.video p{
+    margin-left: 35px;
+    
+    font-size: 16px;
+    
+}
+.watch{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.watch:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.watch-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.watch p{
+    margin-left: 35px;
+    font-size: 16px;
+    
+    
+}
+.show{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.show:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+option{
+   
+    font-size: 14px;
+    border: none;
+   
+}
+select{
+    margin-left: 12px;
+    font-size: 25px;
+ 
+    border: none;
+}
+select:hover{
+    background-color:rgba(128, 128, 128, 0.226) ;
+}
+.show p{
+    margin-left: 35px;
+    
+    font-size: 16px;
+    
+}
+.hr2{
+    width: 100%;
+}
+
+p{
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.anus{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.anus:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.profile-icon{
+    margin-left: 6%;
+    font-size: 20px;
+    color: purple;
+}
+  
+
+.anus p{
+    margin-left: 35px;
+    font-size: 16px;
+        
+    
+}
+.anus a{
+    text-decoration: none;
+    color: black;
+}
+.color1{
+    color: green;
+}
+.color2{
+    color: red;
+}
+
+
+
+
+.music{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+
+    border-radius: 10px;
+    
+}
+.music:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.music-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.music p{
+    margin-left: 40px;
+    font-size: 16px;
+    
+    
+}
+
+.gaming{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.gaming:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.gaming-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.gaming p{
+    margin-left: 40px;
+    font-size: 16px;
+    
+    
+}
+.news{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.news:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.news-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.news p{
+    margin-left: 40px;
+    font-size: 16px;
+    
+    
+}
+.sport{
+    
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+  
+    border-radius: 10px;
+    
+}
+.sport:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.sport-icon{
+    margin-left: 7%;
+    font-size: 14px;
+}
+  
+
+.sport p{
+    margin-left: 40px;
+    font-size: 16px;
+    
+    
+}
+
+.maincontent{
+    display: flex;
+ float: right;   
+height: 100%;
+    width: 79%;
+   margin-top: 43px;
+   flex-wrap: wrap;
+   
+    
+}
+    
+    
+.nav2{
+ display: flex; 
+width: 100%;
+
+justify-content: space-evenly;
+height: 50px;
+
+
+align-items: center;
+
+}
+.all{
+    display: flex; 
+    border: 2px solid transparent;
+    color: white;
+    background-color: black;
+}
+.song{
+    display: flex; 
+border: 2px solid transparent;
+background-color: rgba(128, 128, 128, 0.226);
+
+
+}
+.cricket{
+    display: flex; 
+    border: 2px solid transparent;
+background-color: rgba(128, 128, 128, 0.226);
+
+}
+.anusvlog{
+    display: flex; 
+    border: 2px solid transparent;
+background-color: rgba(128, 128, 128, 0.226);
+
+}
+.maazSafder{
+    display: flex; 
+    border: 2px solid transparent;
+background-color: rgba(128, 128, 128, 0.226);
+
+}
+.sistrology{
+    display: flex; 
+    border: 2px solid transparent;
+background-color: rgba(128, 128, 128, 0.226);
+
+}
+.jannat{
+    display: flex; 
+    border: 2px solid transparent;
+background-color: rgba(128, 128, 128, 0.226);
+
+}
+.drama{
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.226);
+
+}
+.song{
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.226);
+
+}
+.entertainment{
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.226);
+
+}
+.podcast{
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.226);
+
+}
+.live{
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.226);
+
+}
+.india{
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(128, 128, 128, 0.226);
+
+
+}
+
+
+.section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+ 
+    flex-wrap: wrap;
+    
+}
+.part1{
+    height: 300px;
+    
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius:10px ;
+}
+.part2{
+    height: 300px;
+   
+    width: 310px;
+    margin-top: 10px;
+  margin-left: 30px;
+  border-radius:10px ;
+}
+
+.part3{
+    height: 300px;
+   
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius:10px ;
+   
+}
+.part4{
+    height: 300px;
+ 
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+.part5{
+    height: 300px;
+
+    width: 310px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+.part6{
+    height: 300px; 
+   
+    width: 310px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+.part7{
+    height: 300px;
+   
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+.part8{
+    height: 300px;
+
+    width: 310px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+.part9{
+    height: 300px;
+    
+    width: 310px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+
+.part1 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.profile-icon-part1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: purple;
+}
+.profile-icon-part1 p{
+    display: inline-block;
+    color: black;
+font-size: 20px;
+}
+.part2 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.part3 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+   .part4 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.part5 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.part6 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.part7 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.part8 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}
+.part9 img{
+    height: 200px;
+   
+    width: 310px;
+   
+    border-radius:10px ;
+}    
